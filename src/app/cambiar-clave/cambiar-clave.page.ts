@@ -10,6 +10,6 @@ export class CambiarClavePage {
   constructor(private router: Router) {}
 
   goToMenu() {
-    this.router.navigate(['/menu']); 
+    this.router.navigate(['/home']); 
   }
 }
