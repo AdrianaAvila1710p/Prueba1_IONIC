@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mis-asistencias',
   templateUrl: './mis-asistencias.page.html',
   styleUrls: ['./mis-asistencias.page.scss'],
 })
-export class MisAsistenciasPage implements OnInit {
+export class MisAsistencias {
+  constructor(private router: Router) {}
 
-  constructor() { }
-
-  ngOnInit() {
+  goToMenu() {
+    this.router.navigate(['/home']); // Cambia '/menu' por la ruta correcta
   }
-
 }
