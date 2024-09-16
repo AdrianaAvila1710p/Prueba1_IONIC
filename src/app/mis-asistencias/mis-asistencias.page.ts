@@ -23,6 +23,6 @@ export class MisAsistencias {
   constructor(private router: Router) {}
 
   goToMenu() {
-    this.router.navigate(['/menu']); // Cambia '/menu' por la ruta correcta
+    this.router.navigate(['/home']); 
   }
 }
