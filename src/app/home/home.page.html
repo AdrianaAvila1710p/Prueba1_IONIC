@@ -7,9 +7,12 @@
   </ion-header>
   <ion-content>
     <ion-list>
-      <ion-item>Home</ion-item>
-      <ion-item>Profile</ion-item>
-      <ion-item>Settings</ion-item>
+      <!-- Navegación sin validación de base de datos -->
+      <ion-item routerLink="/home">Página de Inicio</ion-item>
+      <ion-item routerLink="/mis-asignaturas">Mis asignaturas</ion-item>
+      <ion-item routerLink="/mis-asistencias">Mis asistencias</ion-item>
+      <ion-item routerLink="/registrar-asistencia">Registrar asistencia</ion-item>
+      <ion-item routerLink="/cambiar-clave">Cambiar clave</ion-item>
     </ion-list>
   </ion-content>
 </ion-menu>
@@ -18,14 +21,14 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button> <!-- Este botón abre el menú -->
+      <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Home</ion-title>
+    <ion-title>Página de Inicio</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding id="main-content">
   <h1>¡Bienvenido/da!</h1>
-  <!-- Imagen con dimensiones definidas -->
-  <ion-img src="assets/4qJ4EpOC.jpg" style="width: 600px; height: auto;"></ion-img>
+  <img src="assets/4qJ4EpOC.jpg" alt="Descripción de la imagen" >
+  <!-- Aquí puedes poner el contenido principal de la página -->
 </ion-content>
