@@ -16,7 +16,7 @@ export class MisAsistencias {
   asistencias: Asistencia[] = [
     { asignatura: 'Programación de Base de Datos', fecha: '2024-09-15', presente: true },
     { asignatura: 'Programación de aplicaciones móviles', fecha: '2024-09-16', presente: false },
-    { asignatura: 'Calidad de Software', fecha: '2024-09-17', presente: true },
+    { asignatura: 'Estadística descriptiva', fecha: '2024-09-17', presente: true },
     { asignatura: 'Inglés', fecha: '2024-09-18', presente: false },
   ];
 
